@@ -72,8 +72,18 @@ nav {
     align-items: center;
     position: fixed;
     width: 1134px;
-    top: 36px;
+    top: 0;
+    padding: 36px 0;
     z-index: 100;
+    transform: all 500ms ease-in-out;
+}
+
+nav.scrolled {
+    background-color: var(--dark-color);
+    box-shadow: 0 16px 14px -8px rgba(0, 0, 0, 0.30);
+    border-radius: 0 0 8px 8px;
+    top: 0;
+    padding: 12px;
 }
 
 nav .logo {
