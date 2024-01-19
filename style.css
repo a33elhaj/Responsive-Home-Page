@@ -414,3 +414,130 @@ section p {
     position: absolute;
     right: 0;
 }
+
+/* App Section */
+
+.app-section {
+    text-align: center;
+    background: #FFF;
+    padding: 100px 0;
+}
+
+.app-section p {
+    color: var(--dark-blue-color);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.app-section .app-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 24px;
+}
+
+.app-section .app-buttons .app-btn {
+    background: #000;
+    display: flex;
+    width: 310px;
+    padding: 20px 31px;
+    align-items: center;
+    gap: 14px;
+    color: #FFF;
+}
+
+.app-section .app-buttons .app-btn span {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Footer  */
+
+footer {
+    background: var(--dark-color);
+    color: #FFF;
+    margin-top: 100px;
+    padding: 70px 0;
+}
+
+.links-container {
+    /* display: flex;
+    gap: 206px; */
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+}
+
+.links-container h3 {
+    color: var(--orange-color);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer .links-container ul {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    padding-left: 20px;
+}
+
+footer .links-container ul li {
+    margin: 16px 0;
+}
+
+footer .links-container a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer .social {
+    margin-left: 20px;
+}
+
+footer .social a {
+    margin-right: 28px;
+}
+
+footer form {
+    margin-left: 20px;
+    margin-top: 16px;
+    position: relative;
+}
+
+footer form input {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: none;
+    width: 100%;
+}
+
+footer form .subscribe-btn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 8px;
+    background: var(--dark-blue-color);
+    padding: 6px 32px;
+    border: 0;
+
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+footer .copyright {
+    margin-top: 36px;
+}
